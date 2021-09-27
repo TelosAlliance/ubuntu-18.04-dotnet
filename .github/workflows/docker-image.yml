@@ -3,7 +3,8 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ 'release' ]
+    tags:
+    - '*'
 
 env:
   REGISTRY: ghcr.io
