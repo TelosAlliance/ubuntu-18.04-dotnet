@@ -1,4 +1,4 @@
-FROM telosalliance/ubuntu-18.04:2020.01
+FROM telosalliance/ubuntu-18.04:2021-10-08
 
 ENV \
     # Enable detection of running in a container
