@@ -7,6 +7,7 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 291F9FF6FD38578
    && apt-get install -y --no-install-recommends \
      libguestfs-tools \
      extlinux \
+     fakeroot \
      libelf-dev \
      libc6 \
      libgcc1 \
